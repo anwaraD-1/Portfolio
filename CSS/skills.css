@@ -150,10 +150,10 @@ body {
     align-items: center;
     justify-content: center;
     color: rgb(70, 70, 70);
-    background-color: var(--secondary-color);
     transition-duration: .7s;
     transition-property: all;
     transition-timing-function: ease; 
+    border: 1px solid rgb(70, 70, 70);
 }
 .Header .container .info-card .skills-sections .skills-part .tech .techs span {
     padding: 10px;
@@ -174,6 +174,7 @@ body {
 .Header .container .info-card .skills-sections .skills-part span:hover {
     background-color: #a64550;
     color: var(--main-color);
+    border: none;
 } 
 .Header .container .info-card .skills-sections .skills-part .desg {
     display: grid;
