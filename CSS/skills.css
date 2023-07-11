@@ -132,6 +132,7 @@ body {
     .Header .container .info-card .skills-sections .skills-part .tech .techs {
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2,1fr);
+        row-gap: 10px;
     }
 }
 .Header .container .info-card .skills-sections .skills-part span {
@@ -145,16 +146,11 @@ body {
     transition-timing-function: ease; 
 }
 .Header .container .info-card .skills-sections .skills-part .tech .techs span {
-    padding: 10px 20px;
+    padding: 10px;
     margin: 15px;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 0;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
     cursor: pointer;
     text-transform: capitalize;
     position: relative;
@@ -180,16 +176,11 @@ body {
     column-gap: 10px;
 }
 .Header .container .info-card .skills-sections .skills-part .desg .desg-elems span {
-    padding: 10px 20px;
+    padding: 10px;
     margin: 15px;
     font-size: 14px;
     line-height: 22px;
     letter-spacing: 0;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
     cursor: pointer;
     text-transform: capitalize;
     position: relative;
