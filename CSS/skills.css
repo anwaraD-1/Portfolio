@@ -52,6 +52,11 @@ body {
     position: relative;
     overflow: hidden;
 }
+@media (max-width: 768px) {
+    .Header {
+        height: 660px;
+    }
+}
 .Header .container {
     height: 100%;
     display: flex;
@@ -71,6 +76,11 @@ body {
     grid-template-rows: 10% 1fr;
     row-gap: 5px;
     z-index: 10;
+}
+@media (max-width: 768px) {
+    .Header .container .info-card {
+        height: 560px;
+    }
 }
 .Header .container .info-card .title {
     display: flex;
@@ -185,6 +195,7 @@ body {
     text-transform: capitalize;
     position: relative;
     font-weight: 500;
+    text-align: center;
 }
 @media (max-width: 768px) {
     .Header .container .info-card .skills-sections .skills-part .desg .desg-elems span {
@@ -209,6 +220,11 @@ body {
     margin-left: 10px;
     position: relative;
     z-index: 10;
+}
+@media (max-width: 768px) {
+    .Header .container .media {
+        height: 560px;
+    }
 }
 @media (max-width: 530px) {
     .Header .container .media {
